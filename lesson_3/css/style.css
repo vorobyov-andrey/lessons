@@ -1,0 +1,37 @@
+@import url("reset.css");
+
+h1 {
+	color: gold;
+}
+
+[class*=__about-photo] {
+	color: gray;
+}
+
+.part-2 {
+	color: brown;
+}
+
+#part-3__title {
+	color: fuchsia;
+}
+
+.part-3 * {
+	color: aqua;
+}
+
+.part-4 > p {
+	color: mediumorchid;
+}
+
+p.quote {
+	color: coral;
+}
+
+.part-5 .text {
+	color: cadetblue;
+}
+
+.part-5 ~ a {
+	color: crimson;
+}
