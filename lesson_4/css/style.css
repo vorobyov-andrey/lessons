@@ -1,0 +1,120 @@
+@import url("reset.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,500;0,700;1,200&display=swap');
+
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('../fonts/Piazzolla-Bold.woff2') format('woff2'),
+        url('../fonts/Piazzolla-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('../fonts/Piazzolla-Medium.woff2') format('woff2'),
+        url('../fonts/Piazzolla-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url('../fonts/Piazzolla-Italic.woff2') format('woff2'),
+        url('../fonts/Piazzolla-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+.body {
+	font-size: 14px;
+}
+
+.date-links {
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.post-item__title {
+	color: #880404;
+	line-height: 1.5;
+}
+
+.post-item__name {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.post-item__info {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.post-item__photo {
+	font-family: 'Sofia Sans Extra Condensed', sans-serif;
+	font-size: 12px;
+	line-height: 1.2;
+}
+
+.post-item__photo-about {
+	font-style: italic;
+}
+
+.post-item__photo-author {
+	font-weight: 700;
+}
+
+.post-item__photo-caption {
+	font-weight: 500;
+}
+
+.some-p-1 {
+	text-indent: 30px;
+}
+
+.some-p-2 {
+	word-spacing: 40px;
+}
+
+.some-p-3 {
+	white-space: nowrap;
+}
+
+.post-item__text {
+	color: #4f4e4e;
+}
+
+.kor-net {
+	text-shadow: 5px 5px 5px #880404;
+}
+
+.news-time {
+	color: #000000;
+	font-weight: 700;
+}
+
+.post-link {
+	font-family: 'Piazzolla';
+    font-weight: normal;
+    font-style: italic;
+	color: #2200ff;
+}
+
+.up-link {
+	text-decoration: underline;
+}
+
+[class*="__title"] {
+	text-align: center;
+}
