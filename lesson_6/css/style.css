@@ -1,0 +1,270 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.79;
+	color: #6C757D;
+}
+
+/* Page 1 */
+.wrapper__page1 {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.part-1 {
+	padding-top: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.not-last-p {
+	padding-bottom: 20px;
+}
+
+.img-1 {
+	margin-bottom: 80px;
+}
+
+.images {
+	font-size: 0px;
+	margin-bottom: 80px;
+}
+
+.img-mr {
+	margin-right: 30px;
+}
+
+[class*="__container"] {
+	max-width: 816px;
+	margin: 0 auto;
+}
+
+[class*="__title"] {
+	max-width: 605px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	margin-bottom: 40px;
+}
+
+[class*="__text"] {
+	margin-bottom: 80px;
+}
+
+/* Page 2  */
+
+.start-page2 {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.img-start-page2 {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.page2-block {
+	max-width: 846px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.page2-p {
+	margin-bottom: 30px;
+}
+
+.title-page2 {
+	margin-bottom: 100px;
+}
+
+.page2-img-block {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+	font-size: 0px;
+	margin-bottom: 30px;
+}
+
+.img-rad {
+	border-radius: 5px;
+}
+
+.slider {
+    max-width: 54px;
+    margin: 0 auto 64px;
+    font-size: 0;
+}
+
+.circle-empty {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+}
+
+.circle-fill {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #212529;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.last-circle {
+    margin-left: 10px;
+}
+
+/* Кнопка */
+
+.button-block {
+	text-align: center;
+	border-top: 5px solid #000;
+	padding: 15px;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+	background-color: #6C757D;
+	color: #fff;
+	border-radius: 15px;
+	border: 5px solid #353535;
+	box-shadow: 0 5px 0 0 #000;
+	margin-bottom: 20px;
+	position: relative;
+	top: 0;
+	transition: all 0.3s;
+}
+
+.button:hover {
+	top: 3px;
+	box-shadow: 0 2px 0 0 #000;
+}
+
+/* Practice page */
+
+.wrapper {
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.block-1 {
+	background-color: #735050;
+	border: 3px solid #2766a5;
+	margin-bottom: 20px;
+}
+
+.inline-1 {
+	background-color: #853030;
+	border: 3px dashed #2766a5;
+	line-height: 3;
+}
+
+.inline-block-1 {
+	background-color: #610b0b;
+	padding: 30px;
+	border: 33px double #2766a5;
+	margin: 20px 0;
+}
+
+.link-block {
+	margin-bottom: 30px;
+}
+
+.practice-link-1 {
+	border-bottom: 1px dotted #000;
+	font-size: 29px;
+}
+
+.practice-link-2 {
+	border-bottom: 1px dashed #000;
+	font-size: 29px;
+}
+
+.block-2 {
+	outline: 3px solid #ff0000;
+	margin-bottom: 35px;
+}
+
+.inline-2 {
+	outline: 13px solid #b738ac;
+}
+
+.inline-block-2 {
+	outline: 13px solid #b738ac;
+	margin: 30px 0;
+}
+
+.block-3 {
+	border-radius: 82% 18% 12% 88% / 83% 74% 26% 17%;
+	background-color: #2766a5;
+}
+
+.inline-3 {
+	border-radius: 82% 18% 12% 88% / 83% 74% 26% 17%;
+	background-color: #cd6c18;
+
+}
+.inline-block-3 {
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+.part-4 {
+	margin-bottom: 60px;
+}
+
+.block-4 {
+	box-shadow: 10px 10px 10px 10px #b738ac;
+	background-color: #48cd18;
+}
+
+.inline-4 {
+	box-shadow: 10px 10px 10px 10px #b738ac;
+	background-color: #48cd18;
+}
+
+.inline-block-4 {
+	box-shadow: 10px 10px 10px 10px #b738ac;
+}
+
+.part-5 {
+	margin-bottom: 60px;
+}
+
+.block-5 {
+	opacity: 0.5;
+}
+.inline-5 {
+	opacity: 0.8;
+}
+.inline-block-5 {
+	opacity: 0;
+}
+
+.part-6 {
+	margin-bottom: 10px;
+}
+.block-6 {
+	visibility: hidden;
+}
+.inline-6 {
+	visibility: hidden;
+}
+.inline-block-6 {
+	visibility: hidden;
+}
