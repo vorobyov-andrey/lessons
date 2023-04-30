@@ -1,0 +1,30 @@
+@import url("reset.css");
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 15px;
+}
+h1 {
+	margin-bottom: 25px;
+	font-size: 22px;
+	text-align: center;
+}
+h2 {
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+img {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	max-width: 1140px;
+}
+.icons, .design-elements, .content-images {
+	margin-bottom: 50px;
+	background-color: rgb(165, 42, 42);
+	color: rgb(240, 248, 255);
+	padding: 15px;
+}
+.content-images {
+	margin-bottom: 0px;
+}
