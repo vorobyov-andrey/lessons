@@ -1,0 +1,73 @@
+@import url("reset.css");
+@import url("menu.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body{
+	background-color: #E5E5E5;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5; /* 24/16 */
+	color: #637381;
+}
+.wrapper{ 
+	overflow: clip;
+	min-height: 100%;
+}
+[class*=__container]{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+/* Header */
+.header{
+	position: fixed;
+	min-width: 100%;
+	background-color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.header__container *{
+	display: inline-block;
+	vertical-align: middle;
+}
+.header__logo{
+	margin-right: 44.61px;;
+}
+/* Icons block */
+.icons__link{
+	position: relative;
+}
+.icons__link:not(:last-child){
+	margin-right: 20px;
+}
+.count{
+	text-align: center;
+	width: 16px;
+	height: 16px;
+	font-weight: 400;
+	font-size: 11px;
+	color: #FFFFFF;
+	border-radius: 50%;
+	background: #3056D3;
+	position: absolute;
+	top: -4px;
+	right: -6px;
+}
+/* Page */
+.page__container{
+	padding-top: 100px;
+}
+.page__title{
+	position: sticky;
+	top: 100px;
+	height: 50px;
+	padding: 15px;
+	color: #000000;
+	background-color: #3056D3;
+}
+.page__title--color{
+	background-color: #e38d14;
+}
