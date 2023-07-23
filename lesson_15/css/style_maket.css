@@ -1,0 +1,246 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+	color: #9C9C9C;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6;
+}
+/* --------------------------------- */
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+/* --------------------------------- */
+.header{
+	background-color: #ffffff;
+	padding: 40px 0px;
+}
+.header__container{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 15px;
+	flex-wrap: wrap;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 74px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.menu__list{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 74px;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.menu__item{
+	align-self: center;
+}
+.menu__link{
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+}
+.menu__link:hover{
+	text-decoration: underline;
+}
+.menu__link.active{
+	font-weight: 600;
+}
+.menu__link.active:hover{
+	text-decoration: none;
+}
+.menu__button{
+	align-self: flex-end;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 500;
+	border: 1px solid #3C3C3C;
+	background-color: #2C3878;
+	padding: 14px 32px;
+	transition: all 0.6s;
+}
+.menu__button:hover{
+	background-color: #4b59a7;
+}
+/* --------------------------------- */
+.page__minimalist {
+}
+.minimalist-page {
+	padding: 60px 0px 100px 0px;
+}
+.minimalist-page__start-block {
+	margin-bottom: 100px;
+}
+.block-start {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+}
+.minimalist-page__title {
+}
+.title {
+	color: #000;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.40;
+	text-align: center;
+}
+.minimalist-page__description {
+	max-width: 518px;
+}
+.description {
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+}
+.minimalist-page__img {
+}
+.minimalist-page__pic {
+	max-width: 100%;
+}
+/* --------------------------------- */
+.minimalist-page__content {
+	margin-bottom: 80px;
+}
+.content-minimalist {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -16px;
+    margin-right: -16px;
+}
+.content-minimalist__project {
+	flex: 0 1 50%;
+	padding: 0 16px;
+}
+.content-minimalist__title {
+	color: #333;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 24px;
+}
+.content-minimalist__text-project{
+	margin-bottom: 60px;
+}
+.content-minimalist__text:not(:last-child) {
+	margin-bottom: 30px;
+}
+.content-minimalist__autor {
+}
+.content-minimalist__autor > span:nth-child(1){
+	margin-right: 80px;
+}
+.content-minimalist__design {
+	flex: 0 1 50%;
+	padding: 0 16px;
+}
+/* --------------------------------- */
+.minimalist-page__catalog {
+}
+.catalog {
+	display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    row-gap: 32px;
+}
+.catalog__item {
+	padding: 0 16px;
+	flex: 0 1 50%;
+}
+.catalog__image {
+}
+.catalog__pic {
+	max-width: 100%;
+}
+.catalog__item--big {
+	flex: 0 1 100%;
+}
+/* --------------------------------- */
+.page__achievment {
+	margin-bottom: 100px;
+}
+.achievment-page {
+}
+.achievment-page__title {
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	position: relative;
+}
+.achievment-page__title::before {
+    content: '';
+    display: block;
+    width: 464px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: 12%;
+    top: 40%;
+}
+.achievment-page__items {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+}
+.achievment-page__item {
+	display: flex;
+	column-gap: 120px;
+}
+.item-achievment {
+}
+.item-achievment__image {
+	flex: 0 1 68%;
+}
+.item-achievment__picter {
+	max-width: 100%;
+}
+.item-achievment__content {
+	flex: 0 1 32%;
+	align-self: center;
+	display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.item-achievment__title {
+	color: #333;
+	font-size: 24px;	
+	font-weight: 600;
+	line-height: 1.4;
+}
+.item-achievment__text {
+}
+/* --------------------------------- */
+.footer{
+	background-color: #000000;
+	min-height: 80px;
+	padding: 30px;
+	text-align: center;
+}
+.footer__button{
+	color: #ffffff;
+	background-color: #808080;
+	padding: 5px;
+	border-radius: 5px;
+}
+[class*=__container]{
+	margin: 0px auto;
+	max-width: 1230px;
+	padding: 0px 15px;
+}
